@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+#banner{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 808px;
+    width: 1600px;
+    background-position: left center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 131px; 
+}
+#banner .banner.con{
+    max-width: 585px;
+    text-align: right;
+}
+#banner .banner-con h3{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: black;
+    margin-right: 230px;
+}
+#banner .banner-con p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #757575;
+    margin-bottom: 32px;
+}
+.btn{
+    background-color: #F15B22;
+    padding: 21px 26px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.fail-con{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin:0px 322px 128px 206px ;
+    
+}
+.fail-con .img{
+    max-width: 569px;
+    max-height: 724.93;
+}
+.fail-con .text{
+    max-width: 416;
+    margin-top: 140px;
+}
+.fail-con .text h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+    width: 288px;
+}
+.fail-con .text p{
+    font-size: 16px;
+    color:#444343;
+    margin-bottom: 16px;
+    width: 416px
+}
+span{
+    font-size: 16px;
+    color:#444343;
+    width: 416px
+}

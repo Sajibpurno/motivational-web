@@ -4,8 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.font-open-sans{
-  font-family: "Open Sans", sans-serif;
+.font-work-sans{
+  font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
 #banner{
@@ -125,4 +125,42 @@
     color: #151414;
     text-align: center;
     margin-bottom: 50px;
+}
+#add-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.add-con{
+    background-image:url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    margin-bottom: 130px;
+    padding-left: 64px;
+    align-content: center;
+}
+.add-con h3{
+    font-size: 40px;
+    max-width: 459px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.add-btn{
+    background-color: #ffffff;
+    padding: 21px 36px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+.add-btn a{
+    text-decoration: none;
+    color:#F15B22;
 }

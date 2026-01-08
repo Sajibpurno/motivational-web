@@ -81,8 +81,48 @@
     margin-bottom: 16px;
     width: 416px
 }
-span{
+.correct-list li{
     font-size: 16px;
     color:#444343;
-    width: 416px
+    list-style: none;
+    margin-bottom: 8px;
+    color:#444343;
+}
+
+
+#plans .plan-con{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#plans .plan-con .plan-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+    margin-bottom: 129px;
+}
+.plan-box{
+    /* max-width: 218px; 
+    margin-top: 50px; */
+    text-align: center;    
+}
+.plan-box img{
+    margin-bottom: 24px;
+    max-width: 92.96px;
+}
+.plan-box h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.plan-box p{
+    font-size: 25px;
+    color: #737272;
+}
+.headline h2{
+    font-size:40px;
+    font-weight: bold;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
 }
